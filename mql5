@@ -1,0 +1,53 @@
+
+// Program: InsideBar Highlight 4 Price Action and SMC Trader
+// Developer's Site: forexroboteasy.com
+// Developer: Forex Robot Easy Team
+
+#property strict
+
+// Define input parameters for customization
+input int insideBarColor = clrRed;
+input int insideBarStyle = STYLE_SOLID;
+
+// Define global variables
+bool insideBarFound = false;
+
+// Define custom functions
+bool IsInsideBar()
+{
+    // Add logic to identify inside bars
+    // Return true if inside bar is found, false otherwise
+}
+
+void HighlightInsideBar()
+{
+    // Add logic to highlight inside bars on the chart
+    // Use the input parameters to customize the style and color
+    // Set insideBarFound to true if inside bar is found
+}
+
+void SMCTrader()
+{
+    // Add logic for SMC Trader to identify market trends
+    // Use necessary algorithms and calculations
+}
+
+// Define the entry point of the program
+void OnTick()
+{
+    if (IsInsideBar())
+    {
+        HighlightInsideBar();
+    }
+    
+    SMCTrader();
+}
+
+// Define the initialization function
+void OnInit()
+{
+    // Add any necessary initialization steps
+    
+    // Print a message to confirm successful initialization
+    Print('InsideBar Highlight 4 Price Action and SMC Trader initialized');
+}
